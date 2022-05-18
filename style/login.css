@@ -15,13 +15,19 @@ body {
     background: linear-gradient(135deg, #b46100, #591deb);
 }
 
+.registro{
+    font-size: 14px;
+    position: relative;
+}
+
+
 .title{
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.title::before{
+/*.title::before{
     content: '';
     position: absolute;
     left: 0;
@@ -29,7 +35,7 @@ body {
     height: 3px;
     width: 30px;
     background: linear-gradient(135deg, #b46100, #591deb)
-}
+}*/
 
 div{
     background-color: #fff;
