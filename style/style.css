@@ -8,8 +8,28 @@ html {
     padding: 0;
 }
 
+.filter{
+    height: 30px;
+    padding: 10px;
+}
+
+.filter a{
+    padding: 5px 5px;
+    margin: 15px;
+    left: 35%;
+    position: relative;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(199, 197, 197);
+    border: black;
+}
+
+.filter a:hover{
+    background: linear-gradient(135deg, #f59930, #885ef1);
+}
+
 .logo{
-    width: 120px;
+    width: 140px;
     height: auto;
     cursor: pointer;
     background-color: rgba(0,0,0,0);
