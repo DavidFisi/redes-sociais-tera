@@ -21,6 +21,16 @@ body {
     position: relative;
 }
 
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #b46100, #591deb)
+}
+
 div{
     background-color: #fff;
     position: absolute;
