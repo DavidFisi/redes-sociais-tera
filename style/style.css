@@ -21,19 +21,19 @@ html {
 }
 
 body {
-    background-color: rgba(243, 242, 242, 0.932);
+    background-color: #dbdad9;
 }
 
 
 .headerLevel{
     height: 2px;
-    background-color: #591deb;
+    background-color: #18005c;
     width: 100%;
     margin: 0 auto;
 }
 
 li, a{
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #000000;
@@ -91,7 +91,7 @@ button {
     transition: all 0.3s ease 0s;
     position: relative;
     top: 5px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
