@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    float: left;
+    right: 1180px;
+    position: absolute;
+    bottom: 10px;
+    top: 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    background-color: rgba(243, 242, 242, 0.932);
+}
+
+
+.headerLevel{
+    height: 2px;
+    background-color: #591deb;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 10px 20px 20px 10px;
+    background-color: #ffffff;
+}
+
+
+.searcher input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: black;
+    padding: 9px 10px;
+    position: relative;
+    right: 400px;
+    top: 3px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #31AFF6;
+}
+
+button {
+    padding: 9px 15px;
+    background-color: #591deb;
+    border: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    top: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ff7f62;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+    float: center;
+}
+
+.container a {
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 260px ;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+    float: center;
+}
+
+.container3{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+    float: center;
+}
+
+.container .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(250px - 30px);
+    background-color: white;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container2 .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(250px - 30px);
+    background-color: white;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container3 .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(250px - 30px);
+    background-color: white;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
