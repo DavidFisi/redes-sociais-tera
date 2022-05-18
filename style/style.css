@@ -112,19 +112,56 @@ body {
 
 .container{
     position: relative;
-    width: 100%;
+    width: 1000px;
     height: 300px;
     margin: 50px auto;
     float: center;
 }
 
-.container a {
-    position: absolute;
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    padding: 260px ;
+.subContainer{
+    position:relative;
+    width: 350px;
+    height: 350px;
+    margin: 10px auto;
+    float: center;
 }
+
+.subContainer .text{
+    position: relative;
+    width: 310px;
+    height: 200px;
+    margin: 10px auto;
+    float: center;
+}
+
+.subContainer .text h1{
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.subContainer2{
+    position:inherit;
+    width: 350px;
+    height: 350px;
+    margin: 10px auto;
+    float: center;
+}
+
+.subContainer2 .text{
+    position: relative;
+    width: 310px;
+    height: 200px;
+    margin: 10px auto;
+    float: center;
+}
+
+.subContainer2 .text h1{
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
 
 .container2{
     position: relative;
