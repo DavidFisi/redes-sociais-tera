@@ -13,21 +13,7 @@ html {
     padding: 10px;
 }
 
-.filter a{
-    padding: 5px 5px;
-    margin: 15px;
-    left: 35%;
-    position: relative;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgb(199, 197, 197);
-    border: black;
-}
-
-.filter a:hover{
-    background: linear-gradient(135deg, #f59930, #885ef1);
-}
-
+/*
 .logo{
     width: 140px;
     height: auto;
@@ -39,7 +25,7 @@ html {
     bottom: 10px;
     top: 2px;
 }
-
+*/
 body {
     background-color: #dbdad9;
 }
@@ -52,6 +38,32 @@ body {
     margin: 0 auto;
 }
 
+.filter{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.filter a{
+    padding: 5px 5px;
+   /* margin: 15px;
+    left: 35%;
+    position: relative;
+    justify-content: center;
+    align-self: center;*/
+    border-radius: 5px;
+    background-color: rgb(199, 197, 197);
+    border: black;
+    min-width: fit-content;
+    max-width: 100px;
+}
+
+.filter a:hover{
+    background: linear-gradient(135deg, #f59930, #885ef1);
+}
+
 li, a{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -62,13 +74,19 @@ li, a{
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items:center;
-    padding: 10px 20px 20px 10px;
+    padding: 5px 5px;
     background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
-
+.logo{
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+/*
 .searcher input{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -79,6 +97,32 @@ header{
     top: 3px;
     width: 300px;
     border: 2px solid black;
+}*/
+
+.searcher input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: black;
+    padding: 9px 10px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.cta{
+    padding: 9px 15px;
+    background-color: #591deb;
+    border: transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background-color: #ff7f62;
 }
 
 
@@ -102,6 +146,7 @@ header{
     color: #31AFF6;
 }
 
+/*
 button {
     padding: 9px 15px;
     background-color: #591deb;
@@ -117,10 +162,8 @@ button {
     color: #ffffff;
     text-decoration: none;
 }
+*/
 
-button:hover {
-    background-color: #ff7f62;
-}
 
 body {
     margin: 0;
