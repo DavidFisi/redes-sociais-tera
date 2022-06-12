@@ -190,8 +190,7 @@ body {
 
 .subContainer .text{
     position: relative;
-    width: 310px;
-    height: 200px;
+    max-width: 33ch;
     margin: 10px auto;
     float: center;
 }
@@ -199,7 +198,6 @@ body {
 .subContainer .text h1{
     cursor: pointer;
     font-size: 14px;
-
 }
 
 .container .box{
