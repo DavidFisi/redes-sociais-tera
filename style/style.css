@@ -56,11 +56,6 @@ nav{
 
 .filter a{
     padding: 5px 5px;
-   /* margin: 15px;
-    left: 35%;
-    position: relative;
-    justify-content: center;
-    align-self: center;*/
     border-radius: 5px;
     background-color: rgb(199, 197, 197);
     border: black;
@@ -79,19 +74,6 @@ nav{
     margin: 0 auto;
 }
 
-/*
-.logo{
-    width: 140px;
-    height: auto;
-    cursor: pointer;
-    background-color: rgba(0,0,0,0);
-    float: left;
-    right: 1180px;
-    position: absolute;
-    bottom: 10px;
-    top: 2px;
-}
-*/
 body {
     background-color: #dbdad9;
     overflow: hidden;
@@ -102,23 +84,36 @@ body {
     display: flex;
 }
 
-aside{
-    width: 15%;
+/*aside{
+    width: 7%;
     background-color: white;
     position: relative;
     float: left;
+}*/
+
+.sidebar .open{
+    padding-top: 0.3rem;
+    width: 160px;;
+    height: 92vh;
+    overflow: auto;
+    background-color: white;
+    margin-top: -3.5rem;
+    background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
 .sidebar{
     padding-top: 0.3rem;
-    width: 100%;
+    width: 45px;
     height: 92vh;
     overflow: auto;
+    background-color: white;
+    margin-top: -3.5rem;
+    background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
 .items{
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.3rem;
     cursor: pointer;
     margin: 0.2rem;
 }
@@ -141,18 +136,6 @@ li, a{
     text-decoration: none;
 }
 
-/*
-.searcher input{
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border: black;
-    padding: 9px 10px;
-    position: relative;
-    right: 400px;
-    top: 3px;
-    width: 300px;
-    border: 2px solid black;
-}*/
 
 
 .cta{
@@ -171,24 +154,6 @@ li, a{
 .cta:hover {
     background-color: #ff7f62;
 }
-
-/*
-button {
-    padding: 9px 15px;
-    background-color: #591deb;
-    border: transparent;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    position: relative;
-    top: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ffffff;
-    text-decoration: none;
-}
-*/
 
 
 body {

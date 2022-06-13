@@ -1,7 +1,6 @@
-let btn = document.querySelector("#btn");
-let sidebar = document.querySelector(".sidebar");
-/*let searchBtn = document.querySelector('#bx-search');*/
+const menuIconBtn = document.querySelector("#btn");
+const sidebar = documento.querySelector(".sidebar");
 
-btn.onclick = function () {
-  sidebar.classList.toggle("active");
-}
+menuIconBtn.addEventListener("click", ()=>{
+  sidebar.classlist.toggle("open")
+})
