@@ -70,14 +70,19 @@ header{
     margin: 0 auto;
 }
 
-.sidebar{
+
+/*.sidebar{
     position: fixed;
     height: 100%;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 78px;
     background:#fff;
     padding: 6px 10px;
+}
+
+.sidebar .active{
+    width: 200px;
 }
 
 .sidebar .logo_content .logo{
@@ -104,6 +109,7 @@ header{
     text-align: center;
     line-height: 50px;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .sidebar ul{
@@ -137,7 +143,7 @@ header{
     border-radius: 12px;
     line-height: 50px;
     text-align: center;
-}
+}*/
 
 /*
 .logo{
