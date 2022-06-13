@@ -8,31 +8,31 @@ html {
     padding: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding: 5px 5px;
     background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
 }
 
-#btn{
+#btn {
     cursor: pointer;
 }
 
-.logo{
+.logo {
     width: 110px;
     height: auto;
     cursor: pointer;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.searcher input{
+.searcher input {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     border: black;
@@ -41,20 +41,20 @@ nav{
     border: 2px solid black;
 }
 
-.filter{
+.filter {
     height: 30px;
     padding: 10px;
 }
 
-.filter{
-    width:100%;
+.filter {
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 1.5em;
 }
 
-.filter a{
+.filter a {
     padding: 5px 5px;
     border-radius: 5px;
     background-color: rgb(199, 197, 197);
@@ -63,11 +63,11 @@ nav{
     max-width: 100px;
 }
 
-.filter a:hover{
+.filter a:hover {
     background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
-.headerLevel{
+.headerLevel {
     height: 2px;
     background-color: #18005c;
     width: 100%;
@@ -92,9 +92,10 @@ body {
     float: left;
 }*/
 
-.sidebar .open{
+.sidebar .open {
     padding-top: 0.3rem;
-    width: 160px;;
+    width: 160px;
+    ;
     height: 92vh;
     overflow: auto;
     background-color: white;
@@ -102,7 +103,7 @@ body {
     background: linear-gradient(135deg, #f59930, #885ef1);
 }
 
-.sidebar{
+.sidebar {
     padding-top: 0.3rem;
     width: 45px;
     height: 100vh;
@@ -114,24 +115,29 @@ body {
     overflow-x: hidden;
 }
 
-.items{
+.sidebar .items {
+    position: relative;
+}
+
+.items {
     display: flex;
     padding: 0.5rem 0.3rem;
     cursor: pointer;
     margin: 0.2rem;
 }
 
-.items p{
+.items p {
     text-transform: capitalize;
     margin-left: 1.5rem;
     font-size: 1rem;
 }
 
-.home{
+.home {
     font-weight: 500;
 }
 
-li, a{
+li,
+a {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -141,13 +147,13 @@ li, a{
 
 
 
-.cta{
+.cta {
     padding: 9px 15px;
     background-color: #591deb;
     border: transparent;
     border-radius: 20px;
     transition: all 0.3s ease 0s;
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #ffffff;
@@ -166,7 +172,7 @@ body {
 }
 
 
-.container{
+.container {
     width: 100%;
     height: 300px;
     margin: 10px auto;
@@ -176,25 +182,25 @@ body {
     justify-content: center;
 }
 
-.subContainer{
-    position:relative;
+.subContainer {
+    position: relative;
     width: 350px;
     height: 350px;
 }
 
-.subContainer .text{
+.subContainer .text {
     position: relative;
     max-width: 33ch;
     margin: 10px auto;
     float: center;
 }
 
-.subContainer .text h1{
+.subContainer .text h1 {
     cursor: pointer;
     font-size: 14px;
 }
 
-.container .box{
+.container .box {
     position: relative;
     width: calc(350px - 30px);
     height: calc(250px - 30px);
@@ -205,5 +211,3 @@ body {
     overflow: hidden;
     border-radius: 10px;
 }
-
-
